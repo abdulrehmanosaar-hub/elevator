@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _MATERIAL_FEATURE_IRIDESCENCE
   - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   m_InvalidKeywords:
@@ -27,11 +28,11 @@ Material:
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
-  - TransparentDepthPrepass
-  - TransparentDepthPostpass
   - TransparentBackface
-  - RayTracingPrepass
+  - TransparentDepthPrepass
   - MOTIONVECTORS
+  - RayTracingPrepass
+  - TransparentDepthPostpass
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -195,7 +196,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _Anisotropy: 0
     - _BASE_UV_CHANNEL: 0
-    - _BlendMode: 0
+    - _BlendMode: 1
     - _BumpScale: 1
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
@@ -254,7 +255,7 @@ Material:
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
     - _LinkDetailsWithBase: 0
-    - _MaterialID: 1
+    - _MaterialID: 3
     - _Metallic: 0
     - _MetallicRemapMax: 0
     - _MetallicRemapMin: 0
