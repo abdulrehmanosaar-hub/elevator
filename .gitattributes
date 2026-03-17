@@ -1,0 +1,42 @@
+# Handle line endings automatically for files detected as text 
+# and leave binary files alone.
+* text=auto
+
+# Force standard LF line endings for all text files
+# This prevents the CRLF warnings on Windows
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+
+# Unity-specific files (mostly YAML under the hood)
+*.unity text eol=lf
+*.asset text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.controller text eol=lf
+*.overrideController text eol=lf
+*.physicMaterial text eol=lf
+*.physicsMaterial2D text eol=lf
+*.anim text eol=lf
+
+# Force binary for assets so Git doesn't try to "fix" them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exr binary
+*.tga binary
+*.dds binary
+*.psd binary
+*.fbx binary
+*.obj binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.pdf binary
+*.zip binary
