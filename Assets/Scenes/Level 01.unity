@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTrigger
   lobbyManager: {fileID: 0}
-  sceneToLoad: Game Lobby
+  sceneToLoad: Lobby
 --- !u!65 &1969011943
 BoxCollider:
   m_ObjectHideFlags: 0

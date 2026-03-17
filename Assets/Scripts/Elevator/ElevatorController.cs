@@ -24,9 +24,13 @@ public class ElevatorController : MonoBehaviour
     private bool movingElevator = false;
     private bool busy = false;
 
+    private Vector3 lastPosition;
+    private PlayerControl playerOnElevator;
+
     void Start()
     {
         CloseDoors();
+        lastPosition = transform.position;
     }
 
     void Update()
@@ -48,6 +52,15 @@ public class ElevatorController : MonoBehaviour
                 busy = false;
             }
         }
+
+        Vector3 elevatorDelta = transform.position - lastPosition;
+
+        if (playerOnElevator != null)
+        {
+            playerOnElevator.MoveWithPlatform(elevatorDelta);
+        }
+
+        lastPosition = transform.position;
     }
 
     void MoveDoor(Transform door, float targetX)
@@ -80,11 +93,19 @@ public class ElevatorController : MonoBehaviour
     IEnumerator CloseDoorsThenMove()
     {
         busy = true;
-
         CloseDoors();
-
         yield return new WaitForSeconds(waitBeforeMove);
-
         movingElevator = true;
+    }
+
+    public void SetPlayerOnElevator(PlayerControl player)
+    {
+        playerOnElevator = player;
+    }
+
+    public void ClearPlayerOnElevator(PlayerControl player)
+    {
+        if (playerOnElevator == player)
+            playerOnElevator = null;
     }
 }

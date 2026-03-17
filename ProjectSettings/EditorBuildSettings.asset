@@ -8,12 +8,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Other/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Lobby.unity
     guid: dcdf9f4b430608e40ac9e0416eac95ea
   - enabled: 1
     path: Assets/Scenes/Level 01.unity
     guid: 24899fd8613b09947b703125ee1ae281
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 2f05fc6dcc97b0a4f91939775fae8227
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8676923082adb744a96888976d1eb875, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9f478ada1cda5ef4c9e7fc6f04113740, type: 2}
   m_UseUCBPForAssetBundles: 0

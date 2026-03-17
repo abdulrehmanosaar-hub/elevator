@@ -82,7 +82,6 @@ public class PlayerControl : MonoBehaviour
 
         if (isGrounded && yVelocity < 0f){yVelocity = -2f;}
         if (isGrounded && jumpPressed){yVelocity = Mathf.Sqrt(jumpForce * -2f * gravity);jumpPressed = false;}
-        if (!isGrounded){yVelocity += gravity * Time.deltaTime;}
         Debug.DrawRay(transform.position, Vector3.down * rayDistance, isGrounded ? Color.green : Color.red); //visualize the ray
 
         //Move
@@ -104,13 +103,6 @@ public class PlayerControl : MonoBehaviour
         Vector3 verticalMove = Vector3.up * yVelocity;
         _cc.Move((horizontalMove + verticalMove) * Time.deltaTime);
 
-
-        //jump
-        if (isGrounded && jumpPressed)
-        {
-            yVelocity = Mathf.Sqrt(jumpForce * -2f * gravity);
-            jumpPressed = false;
-        }
         UpdateHeadMotion(isGrounded);
         
 
@@ -200,6 +192,11 @@ public class PlayerControl : MonoBehaviour
 
     //ground check with raycast (buggy)
     private bool CheckGrounded(){return Physics.Raycast(transform.position, Vector3.down, rayDistance, groundLayer);}
+
+    public void MoveWithPlatform(Vector3 platformDelta)
+    {
+        _cc.Move(platformDelta);
+    }
 
 
 
