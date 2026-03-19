@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneTrigger : MonoBehaviour
 {
     [SerializeField] private LobbyManager lobbyManager;
     public string sceneToLoad = "";
+
 
     void Awake()
     {
@@ -21,4 +23,5 @@ public class SceneTrigger : MonoBehaviour
             SceneManager.LoadScene(sceneToLoad);
         }
     }
+
 }

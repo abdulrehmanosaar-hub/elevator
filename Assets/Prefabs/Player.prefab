@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 7933562355282754740}
   - component: {fileID: 2092209936982234648}
   - component: {fileID: 7639201295418235762}
+  - component: {fileID: 2610861024210982034}
+  - component: {fileID: 8339494942445962533}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -29,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 495971097131602096}
@@ -52,9 +54,9 @@ MonoBehaviour:
   pitchTarget: {fileID: 495971097131602096}
   playerCamera: {fileID: 2824254066532480991}
   speed: 5
-  jumpForce: 5
+  jumpForce: 1
   gravity: -9.81
-  rayDistance: 1.1
+  rayDistance: 2.1
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -189,11 +191,75 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4e090164-b02c-452c-ab3e-a56ba9026eee
     m_ActionName: 'Gameplay/Look[/Mouse/delta]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8339494942445962533}
+        m_TargetAssemblyTypeName: PlayerInteract, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 74ce5a1a-4b89-4974-ab09-087444acf89e
+    m_ActionName: 'Gameplay/Interact[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: eb6022b4-fbac-4d58-a157-fd684b440832
+    m_ActionName: 'Gameplay/Zoom[/Mouse/rightButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2610861024210982034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930584355087431244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23a37c8921d9b754aa72332f8f8be62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerZoom
+  playerCamera: {fileID: 2824254066532480991}
+  zoomFov: 40
+  zoomSpeed: 8
+--- !u!114 &8339494942445962533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930584355087431244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f592c68e627d624cb1bcfb0bc92795c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
+  playerCamera: {fileID: 2824254066532480991}
+  interactDistance: 6
+  interactLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &2620607644989237965
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +402,7 @@ Transform:
   m_GameObject: {fileID: 4926793994298122413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.20999998, z: 0}
+  m_LocalPosition: {x: 0, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
