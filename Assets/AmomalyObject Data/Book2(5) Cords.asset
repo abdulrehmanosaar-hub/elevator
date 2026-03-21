@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564d69bacb719fc449fd13418bbb026f, type: 3}
-  m_Name: Hidden
+  m_Name: Book2(5) Cords
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyData
   anomalyID: 
   description: 
-  targetPositionOffset: {x: 0, y: 0, z: 0}
+  targetPositionOffset: {x: -0.00570305, y: 0.1190384, z: 0}
   targetRotationOffset: {x: 0, y: 0, z: 0}
-  shouldBeHidden: 1
+  shouldBeHidden: 0

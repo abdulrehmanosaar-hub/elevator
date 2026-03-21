@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
         }
 
         // 2. 50/50 chance of being an anomaly floor
-        isCurrentFloorAnomaly = Random.value > 0.3f;
+        isCurrentFloorAnomaly = Random.value > 0.4f;
 
         if (isCurrentFloorAnomaly)
         {
