@@ -1,6 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class SceneTrigger : MonoBehaviour
 {
@@ -15,7 +13,7 @@ public class SceneTrigger : MonoBehaviour
     }
 
     public elevatorType eType;
-    
+
     private LevelManager levelManager;
 
     void Awake()
@@ -25,41 +23,35 @@ public class SceneTrigger : MonoBehaviour
             lobbyManager = FindFirstObjectByType<LobbyManager>();
         }
 
-        levelManager = FindObjectOfType<LevelManager>();
+        levelManager = FindFirstObjectByType<LevelManager>();
     }
-
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        bool hasAnomaly = false;
+
+        if (levelManager != null)
         {
-            bool hasAnomaly = false;
+            hasAnomaly = levelManager.HasAnomaly();
+        }
 
-            if (levelManager != null)
-            {
-                hasAnomaly = levelManager.HasAnomaly();
-            }
-
-            if (hasAnomaly && (eType == elevatorType.anamoly))
-            {
-                SceneManager.LoadScene(nextLevel);
-            }
-            else if (!hasAnomaly && (eType == elevatorType.anamoly))
-            {
-                SceneManager.LoadScene(loadLobby);
-            }
-            else if (!hasAnomaly && (eType == elevatorType.noanamoly))
-            {
-                SceneManager.LoadScene(nextLevel);
-            }
-            else if (hasAnomaly && (eType == elevatorType.noanamoly))
-            {
-                SceneManager.LoadScene(loadLobby);
-            }
-
-
+        if (hasAnomaly && eType == elevatorType.anamoly)
+        {
+            SceneLoader.LoadScene(nextLevel);
+        }
+        else if (!hasAnomaly && eType == elevatorType.anamoly)
+        {
+            SceneLoader.LoadScene(loadLobby);
+        }
+        else if (!hasAnomaly && eType == elevatorType.noanamoly)
+        {
+            SceneLoader.LoadScene(nextLevel);
+        }
+        else if (hasAnomaly && eType == elevatorType.noanamoly)
+        {
+            SceneLoader.LoadScene(loadLobby);
         }
     }
-
-
 }

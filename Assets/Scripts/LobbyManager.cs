@@ -42,7 +42,7 @@ public class LobbyManager : MonoBehaviour
 
     private void SpawnPlayerIfNeeded()
     {
-        PlayerControl existingPlayer = FindObjectOfType<PlayerControl>();
+        PlayerControl existingPlayer = FindFirstObjectByType<PlayerControl>();
 
         if (existingPlayer != null)
         {

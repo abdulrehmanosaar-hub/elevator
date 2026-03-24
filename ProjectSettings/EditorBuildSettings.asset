@@ -12,14 +12,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 11f152404d383854da0b9090b40814c8
   - enabled: 1
-    path: Assets/Scenes/Lobby.unity
+    path: Assets/Scenes/Lobby_Old.unity
     guid: 2f05fc6dcc97b0a4f91939775fae8227
   - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 957a5bb38e7d8d44e8bf90a590d4bded
+  - enabled: 1
+    path: Assets/Scenes/Pregame lobby.unity
+    guid: a9f3673adc1ef764fb108d94b192701b
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: cc9ab3cf1f5633a498f147eeccb8fa2d
+  - enabled: 1
     path: Assets/Scenes/Level 01.unity
-    guid: bb2eabb2435bb364682ffc9d20c351f2
+    guid: 22304a1144c45f646b8534e29fe17823
   - enabled: 1
     path: Assets/Scenes/Level 02.unity
-    guid: 35d697e0b710a0b47bce382945bda8a9
+    guid: 1410b8e30963ff74f9c539ca742f751a
   - enabled: 1
     path: Assets/Scenes/Level 03.unity
     guid: 919f28e711b45b141b1656ae25a8a559
