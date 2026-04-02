@@ -146,6 +146,8 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
+  - {fileID: -3127242731403464838, guid: 8676923082adb744a96888976d1eb875, type: 2}
+  - {fileID: -9104620966409755101, guid: 9f478ada1cda5ef4c9e7fc6f04113740, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -581,7 +583,7 @@ PlayerSettings:
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
-  m_DefaultShaderChunkCount: 0
+  m_DefaultShaderChunkCount: 2
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
