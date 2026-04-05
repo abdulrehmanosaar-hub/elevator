@@ -4,14 +4,22 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public List<AnomalyObject> allPossibleAnomalies;
+    private HintMSG hintMsg;
 
     // We keep this private so other scripts use the method to check it
     private bool isCurrentFloorAnomaly = false;
+
+
+    void Awake()
+    {
+        hintMsg = FindAnyObjectByType<HintMSG>();
+    }
 
     // 1. Trigger the logic as soon as the scene loads
     void Start()
     {
         PrepareNextFloor();
+        hintMsg.resetText();
     }
 
     public void PrepareNextFloor()
@@ -38,6 +46,16 @@ public class LevelManager : MonoBehaviour
             int randomIndex = Random.Range(0, allPossibleAnomalies.Count);
             allPossibleAnomalies[randomIndex].TriggerAnomaly();
             Debug.Log("<color=orange>Anomaly Active:</color> " + allPossibleAnomalies[randomIndex].name);
+            if (hintMsg != null) 
+            {
+                hintMsg.anamolyStatusTrue(allPossibleAnomalies[randomIndex].name);
+            }
+            else
+            {
+                Debug.Log("No anamoly to pass");
+            }
+
+            
         }
         else
         {
