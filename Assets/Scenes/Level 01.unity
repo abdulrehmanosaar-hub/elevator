@@ -1253,7 +1253,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3235151529789640600, guid: 3f29ba4dd45abe542b88e37da5ee26a9, type: 3}
       propertyPath: m_Name
-      value: photo_5
+      value: Far Left Corner Photo
       objectReference: {fileID: 0}
     - target: {fileID: 3235151529789640600, guid: 3f29ba4dd45abe542b88e37da5ee26a9, type: 3}
       propertyPath: m_IsActive
@@ -6148,7 +6148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_Name
-      value: light_tall (3)
+      value: Far Left Corner Tall Lamp
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12277,7 +12277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9164354468594182782, guid: 22a3ece7499a3b94abff11aef27bf2a8, type: 3}
       propertyPath: m_Name
-      value: tea_table 1 (1)
+      value: TV Tea Table
       objectReference: {fileID: 0}
     - target: {fileID: 9164354468594182782, guid: 22a3ece7499a3b94abff11aef27bf2a8, type: 3}
       propertyPath: m_IsActive
@@ -23376,7 +23376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_Name
-      value: light_tall (1)
+      value: TV Side Lamp
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30287,11 +30287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4334314812708720168, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334314813405729788, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36793,7 +36793,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3622243103439998288, guid: 42a7acd56b9b4c44f91e4d393ed2adc8, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7487244357921330417, guid: 42a7acd56b9b4c44f91e4d393ed2adc8, type: 3}
       propertyPath: m_LocalScale.x

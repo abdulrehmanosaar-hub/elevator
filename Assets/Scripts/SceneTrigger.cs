@@ -46,7 +46,7 @@ public class SceneTrigger : MonoBehaviour
         if (hasAnomaly && eType == elevatorType.anamoly)
         {
             SceneLoader.LoadScene(nextLevel);
-            hintMSG.resetText();
+          //  hintMSG.resetText();
         }
         else if (!hasAnomaly && eType == elevatorType.anamoly)
         {
@@ -56,7 +56,7 @@ public class SceneTrigger : MonoBehaviour
         else if (!hasAnomaly && eType == elevatorType.noanamoly)
         {
             SceneLoader.LoadScene(nextLevel);
-            hintMSG.resetText();
+            //hintMSG.resetText();
         }
         else if (hasAnomaly && eType == elevatorType.noanamoly)
         {

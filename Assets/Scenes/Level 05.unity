@@ -5928,7 +5928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_Name
-      value: light_tall (3)
+      value: Far Left Side Tall Lamp
       objectReference: {fileID: 0}
     - target: {fileID: 4770286674447967998, guid: 6f0b3353792664245b8b0f24ee37a48f, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12357,7 +12357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9164354468594182782, guid: 22a3ece7499a3b94abff11aef27bf2a8, type: 3}
       propertyPath: m_Name
-      value: tea_table 1 (1)
+      value: TV Side Tea Table
       objectReference: {fileID: 0}
     - target: {fileID: 9164354468594182782, guid: 22a3ece7499a3b94abff11aef27bf2a8, type: 3}
       propertyPath: m_IsActive
@@ -12678,7 +12678,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_Name
-      value: vase_2
+      value: Tv side Vase
       objectReference: {fileID: 0}
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_IsActive
@@ -12953,7 +12953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9085021256225398369, guid: cd2b2d0789991ca448a5144177d16475, type: 3}
       propertyPath: m_Name
-      value: phone (1)
+      value: Clock Side Phont?
       objectReference: {fileID: 0}
     - target: {fileID: 9085021256225398369, guid: cd2b2d0789991ca448a5144177d16475, type: 3}
       propertyPath: m_IsActive
@@ -14274,7 +14274,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_Name
-      value: carpet_3
+      value: Look below fireplace Sofas
       objectReference: {fileID: 0}
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_IsActive
@@ -27073,6 +27073,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -6523159981866344244, guid: c5e89ab86b895784981a920ed59d983c, type: 3}
+      propertyPath: m_Name
+      value: Look Closely at the Far Side Book Rack
+      objectReference: {fileID: 0}
+    - target: {fileID: -6523159981866344244, guid: c5e89ab86b895784981a920ed59d983c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -31926,7 +31930,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_Name
-      value: book_2 (9)
+      value: Something's Up with Number of Books, Far side Book rack
       objectReference: {fileID: 0}
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_StaticEditorFlags

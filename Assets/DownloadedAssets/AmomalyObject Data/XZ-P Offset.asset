@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnomalyData
   anomalyID: 
   description: 
-  targetPositionOffset: {x: 0.8, y: 0, z: 0.2}
+  targetPositionOffset: {x: 1.5, y: 0, z: -1}
   targetRotationOffset: {x: 0, y: 0, z: 0}
   shouldBeHidden: 0

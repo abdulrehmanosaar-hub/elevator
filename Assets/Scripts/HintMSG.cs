@@ -37,7 +37,8 @@ public class HintMSG : MonoBehaviour
      
         if (anamolyData != null)
             {
-                myTextElement.text = "Wops, Made a Mistake. There was an anamoly \nYour Abstract Hint:" + anamolyData;
+                myTextElement.text = "Wrong Choice of Elevator. \nThere was an anamoly. \nThe anamoly was: " + anamolyData;
+            myTextElement.color = Color.red;
             }        
     }
 
@@ -48,7 +49,8 @@ public class HintMSG : MonoBehaviour
 
     public void noAnamolyChangeText()
     {
-        myTextElement.text = "Wops, Was a Non-Anamoly Level That One :)";
+        myTextElement.text = "Wrong Choice of Elevator. \nThere was no anamoly";
+        myTextElement.color = Color.red;
     }
 
 

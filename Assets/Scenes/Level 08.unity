@@ -7511,7 +7511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
       propertyPath: m_Name
-      value: clock_wall
+      value: That tv?
       objectReference: {fileID: 0}
     - target: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
       propertyPath: m_IsActive
@@ -7519,7 +7519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13421,7 +13421,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_Name
-      value: vase_2
+      value: Tv Table
       objectReference: {fileID: 0}
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_IsActive
@@ -15339,7 +15339,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_Name
-      value: carpet_3
+      value: Something up with the grounf near fireplace
       objectReference: {fileID: 0}
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_IsActive
@@ -18619,7 +18619,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1733502103614881885, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_Name
-      value: vase_1
+      value: Clock Side Table?
       objectReference: {fileID: 0}
     - target: {fileID: 1733502103614881885, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_IsActive
@@ -18627,7 +18627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1733502103614881885, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3335799690809901652, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19210,7 +19210,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2583848074981961899, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_Name
-      value: ceramic_tea_glass
+      value: That right corner near the gramophone
       objectReference: {fileID: 0}
     - target: {fileID: 2583848074981961899, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_IsActive
@@ -19218,7 +19218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2583848074981961899, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3190709242951684149, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_LocalScale.x
@@ -19546,8 +19546,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4334314813405729788, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
+      propertyPath: m_Name
+      value: Above Fireplace ;)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334314813405729788, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29519,11 +29523,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_Name
-      value: book_2 (5)
+      value: Books Move?
       objectReference: {fileID: 0}
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9162966512111866043, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_LocalScale.x
@@ -31103,7 +31107,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_Name
-      value: book_2 (9)
+      value: Number of books?
       objectReference: {fileID: 0}
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -39858,8 +39862,12 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6289801478594699798, guid: 0d79023fb2d5959408c2049a08464e59, type: 3}
+      propertyPath: m_Name
+      value: Something's different with Tv Side Sofas?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6289801478594699798, guid: 0d79023fb2d5959408c2049a08464e59, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7129491268418330923, guid: 0d79023fb2d5959408c2049a08464e59, type: 3}
       propertyPath: m_LocalScale.x
@@ -40347,6 +40355,10 @@ PrefabInstance:
     - target: {fileID: 361025590074534216, guid: 90beaa833f919e945bf8cb58355a1dff, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162746257696496803, guid: 90beaa833f919e945bf8cb58355a1dff, type: 3}
+      propertyPath: m_Name
+      value: Check Gramophone
       objectReference: {fileID: 0}
     - target: {fileID: 1162746257696496803, guid: 90beaa833f919e945bf8cb58355a1dff, type: 3}
       propertyPath: m_StaticEditorFlags

@@ -12619,7 +12619,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_Name
-      value: vase_2
+      value: Tv Side Vase
       objectReference: {fileID: 0}
     - target: {fileID: 7156182268723906934, guid: 16781257d64bef643a5a15220e6cb72d, type: 3}
       propertyPath: m_IsActive
@@ -14452,7 +14452,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_Name
-      value: carpet_3
+      value: Look Near Fireplace Sofas
       objectReference: {fileID: 0}
     - target: {fileID: 214260534919179402, guid: 7d581485fa9a22a4fa5a5b9bf0566d97, type: 3}
       propertyPath: m_IsActive
@@ -18843,7 +18843,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1733502103614881885, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_Name
-      value: vase_1
+      value: Clock Side Vase?
       objectReference: {fileID: 0}
     - target: {fileID: 1733502103614881885, guid: 8eade45c1990818478b97a026d8bd5d8, type: 3}
       propertyPath: m_IsActive
@@ -19194,7 +19194,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2583848074981961899, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_Name
-      value: ceramic_tea_glass
+      value: Something in the close side right corner?
       objectReference: {fileID: 0}
     - target: {fileID: 2583848074981961899, guid: 6c99f9347e8e63d4096fd68e28ac7f0b, type: 3}
       propertyPath: m_IsActive
@@ -19528,6 +19528,10 @@ PrefabInstance:
     - target: {fileID: 4334314813405729787, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334314813405729788, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
+      propertyPath: m_Name
+      value: Look Above Fireplace
       objectReference: {fileID: 0}
     - target: {fileID: 4334314813405729788, guid: edccbf15fadd9704cb7a2020a492b120, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -28710,7 +28714,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_Name
-      value: book_2 (5)
+      value: Somebooks Moved?
       objectReference: {fileID: 0}
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -30151,7 +30155,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_Name
-      value: book_2 (9)
+      value: Something's Up with the Number of Books in the Second Book Rack
       objectReference: {fileID: 0}
     - target: {fileID: 4354207764525239740, guid: b166b712d873b26459cbc94f94d473b6, type: 3}
       propertyPath: m_StaticEditorFlags
